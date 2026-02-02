@@ -7,7 +7,17 @@ from sklearn.metrics import confusion_matrix, ConfusionMatrixDisplay
 from dataset import train_loader, val_loader, test_loader
 from model import CNNModel
 from config import Config
+import random
 
+# For reproducibility
+SEED = 42
+random.seed(SEED)
+np.random.seed(SEED)
+torch.manual_seed(SEED)
+torch.cuda.manual_seed(SEED)
+torch.cuda.manual_seed_all(SEED)
+torch.backends.cudnn.deterministic = True
+torch.backends.cudnn.benchmark = False
 
 c = Config()
 model = CNNModel(num_classes=10)
