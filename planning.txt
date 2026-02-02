@@ -1,0 +1,12 @@
+                        DATASET info
+Dataset name: GTZAN (https://www.kaggle.com/datasets/andradaolteanu/gtzan-dataset-music-genre-classification/data)
+Folder descriptions:
+    genres_original - a collections of 10 genres with 100 audio files each, all having 30 seconds.
+    images_original - a visual representation for each audio file. Audio files are converted to Mel Spectrograms
+    2 CSV files     - containing features of the audio files that can be extracted from the audio files.
+
+
+                        WHAT ARE WE GONNA DO?
+1. Split the dataset into train/val/test: 70/15/15
+2. We ust torchvision.datasets.ImageFolder which creates dataset for training/validation/testing
+
