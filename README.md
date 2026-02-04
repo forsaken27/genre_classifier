@@ -90,10 +90,6 @@ After training completes, check the generated output files:
 - [ ] Transfer learning with pretrained models
 - [ ] Web demo / inference script
 
-## License
-
-This project is open source and available under the [MIT License](LICENSE).
-
-## Acknowledgments
+## References
 
 - [GTZAN Dataset](https://www.kaggle.com/datasets/andradaolteanu/gtzan-dataset-music-genre-classification/data) by Andrada Olteanu on Kaggle
